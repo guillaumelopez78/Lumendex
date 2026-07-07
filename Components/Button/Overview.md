@@ -12,6 +12,12 @@
 
 ---
 
+## Storybook
+
+[View interactive Button story in Storybook](https://storybook.supernova.io/design-systems/758199/alias/shine-ui-main/index.html?path=/story/forms-button--default)
+
+Embed a Storybook story to your documentation.
+
 ## Code Example
 
 ```jsx
