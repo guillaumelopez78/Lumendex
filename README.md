@@ -25,7 +25,7 @@ Lumen is a minimalist, production-ready design system with 48 carefully crafted 
 ```
 lumen-component-specs/
 ├── README.md                          ← You are here
-├── design-system/
+├── Design-System/
 │   └── Components/                    ← 48 component folders
 │       ├── Accordion/
 │       │   ├── Overview.md           (How to use)
@@ -35,7 +35,7 @@ lumen-component-specs/
 │       ├── Button/
 │       ├── TextField/
 │       └── ... (45 more components)
-└── product/                           ← 4 product documentation systems
+└── Product/                           ← 4 product documentation systems
     ├── Accounting/
     ├── Banking/
     ├── Cash-Pilot/
@@ -90,7 +90,7 @@ Search, Tooltip, Transaction
 
 ### Find a Component
 
-Navigate to `design-system/Components/{ComponentName}/` and read in order:
+Navigate to `Design-System/Components/{ComponentName}/` and read in order:
 
 1. **Overview.md** — When and how to use this component
 2. **Guidelines.md** — Do's and Don'ts (best practices)
@@ -99,7 +99,7 @@ Navigate to `design-system/Components/{ComponentName}/` and read in order:
 ### Example: Button Component
 
 ```bash
-design-system/Components/Button/
+Design-System/Components/Button/
 ├── Overview.md      → When to use buttons, usage patterns
 ├── Guidelines.md    → Do: One accent button per screen max
 ├── Specs.md         → Props, variants, design tokens
@@ -111,7 +111,7 @@ design-system/Components/Button/
 Each product has complete documentation with 6 sections:
 
 ```bash
-product/Cash-Pilot/
+Product/Cash-Pilot/
 ├── 01_RESEARCH/           → User research, pain points, personas
 ├── 02_COMPETITIVE/        → Market analysis, competitor insights
 ├── 03_STRATEGY/           → Go-to-market, positioning, roadmap
@@ -137,7 +137,7 @@ import { Button } from '@shinetools/lumen-react';
 </Button>
 ```
 
-👉 **[Full Documentation](design-system/Components/Button/)**
+👉 **[Full Documentation](Design-System/Components/Button/)**
 
 ### Mobile (Native)
 
@@ -149,25 +149,25 @@ import { Button } from '@shinetools/lumen-native';
 </Button>
 ```
 
-👉 **[Full Documentation](design-system/Components/Button/)**
+👉 **[Full Documentation](Design-System/Components/Button/)**
 
 ---
 
 ## 🎯 Products
 
-### [Cash Pilot](product/Cash-Pilot/)
+### [Cash Pilot](Product/Cash-Pilot/)
 AI-powered cash flow forecasting for European SMBs
 - **Status:** Shipped & Scaling (May 2026)
 - **Markets:** France, Germany, Denmark, Netherlands
 - **MVP:** 30-180 day cash forecasts from banking data
 
-### [Invoicing](product/Invoicing/)
+### [Invoicing](Product/Invoicing/)
 Simple, fast invoice creation and tracking
 
-### [Banking](product/Banking/)
+### [Banking](Product/Banking/)
 Banking operations and account management
 
-### [Accounting](product/Accounting/)
+### [Accounting](Product/Accounting/)
 Complete accounting and financial management
 
 ---
@@ -218,7 +218,7 @@ Contains:
 ## 🛠️ Contributing
 
 ### Adding a New Component
-1. Create `design-system/Components/{ComponentName}/`
+1. Create `Design-System/Components/{ComponentName}/`
 2. Add **Overview.md** — How to use section
 3. Add **Guidelines.md** — Do/Don't table
 4. Add **Specs.md** — Props, tokens, API reference
