@@ -1,10 +1,3 @@
-# Segmented-Control
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/segmentedcontrol)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/segmentedcontrol)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Set of mutually exclusive options displayed as connected buttons. Use Segmented-Control for view switching, mode selection, and filtering.

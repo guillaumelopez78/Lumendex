@@ -1,10 +1,3 @@
-# Card
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/card)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/card)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Displaying grouped information in dashboard/summary contexts with 6 card types for specific data. Use Card for key metrics and financial summaries.

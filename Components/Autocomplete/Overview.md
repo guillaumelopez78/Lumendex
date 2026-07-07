@@ -1,10 +1,3 @@
-# Autocomplete
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/autocomplete)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/autocomplete)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Text input with dynamic suggestion list updated in real time from an async source. Unlike Select, users type freely and suggestions update as they type.

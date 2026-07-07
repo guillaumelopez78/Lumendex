@@ -1,10 +1,3 @@
-# Drawer
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/drawer)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/drawer)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Side panel that slides in from the edge of the screen—less disruptive than Dialog. Use Drawer for secondary tasks, detail views, and filtering.

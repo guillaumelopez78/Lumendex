@@ -1,10 +1,3 @@
-# Transaction
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/transaction)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/transaction)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Displays transaction/financial information with specific layout. Use Transaction for invoice and payment displays.

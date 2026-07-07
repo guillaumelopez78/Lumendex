@@ -1,10 +1,3 @@
-# Accordion
+## How to use
 
-**Source Code:**
-- 🌐 [Web (lumen-react)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/accordion)
-- 📱 [Mobile (lumen-native)](https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/accordion)
-
-| Platform | Status | Version |
-|----------|--------|---------|
-| 🌐 Web | 🟢 Stable | v0.0.1 |
-| 📱 Mobile | 🟢 Stable | v0.0.1 |
+Progressive disclosure of grouped content that expands/collapses sections. Use Accordion for FAQ/help sections, settings panels, transaction/invoice details, collapsible documentation, and form sections.
