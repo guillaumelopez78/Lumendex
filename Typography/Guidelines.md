@@ -1,8 +1,18 @@
 # Typography - Guidelines
 
-## Guidelines
+---
 
-Semantic text components. Three sub-components cover all text needs: `Typography.Text` for body copy, `Typography.Header` for headings, `Typography.Link` for inline links. All use **Inter** exclusively.
+## Do / Don't
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Use `Typography.Header as="h2"` for section titles — semantic structure | Use `Typography.Text weight="semibold"` to visually fake a heading |
+| Use `variant="secondary"` for supporting/metadata text | Override token colors with inline styles |
+| Match `size` on `Typography.Link` to surrounding `Typography.Text` size | Use a link size that doesn't match surrounding body text |
+
+---
+
+---
 
 ### Imports
 

@@ -1,8 +1,26 @@
 # Callout - Guidelines
 
-## Guidelines
+---
 
-Inline contextual highlight — lighter than [[Banner]], more prominent than body text. Used to draw attention to key information within a content section.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 

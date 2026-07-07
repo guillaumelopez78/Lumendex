@@ -1,8 +1,18 @@
 # Progress - Guidelines
 
-## Guidelines
+---
 
-Displays progress toward a goal. Three types: `determinate` (known %, fills smoothly), `indeterminate` (unknown duration, animates continuously), `segmented` (discrete steps). Use [[Loader]] for spinners.
+## Do / Don't
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Use `determinate` when you know the percentage — gives concrete feedback | Use `indeterminate` when you have the percentage — wastes information |
+| Use `segmented` for onboarding steps (`value={2}`, `segments={4}` = step 2 of 4) | Use `segmented` for file uploads — misleads about granularity |
+| Provide `label="Uploading files"` for screen readers | Leave `label` empty on an indeterminate bar |
+
+---
+
+---
 
 ### Imports
 

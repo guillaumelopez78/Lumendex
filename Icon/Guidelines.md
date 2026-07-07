@@ -1,8 +1,26 @@
 # Icon - Guidelines
 
-## Guidelines
+---
 
-Icon component powered by Lucide — 1 500+ open-source SVG icons. Available in 5 sizes. Always use currentColor so icons inherit their context color.
+## Do / Don't
+
+### React (Web)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| aria-label + Tooltip — screen readers and sighted users both understand | Icon button with no label — screen reader says nothing |
+| Default to `size="sm"` (16px) — it's the most common icon size in Shine's interface | Use 20px or 24px for general interface icons — 16px is the standard; reserve larger sizes for navigation and headers |
+| Use only Lucide icons (`lucide-react`) — all icons in Shine come from this single library | Use custom SVGs or icons from other libraries — Lucide is the exclusive icon source in Shine |
+
+### Native (Mobile)
+
+
+> 🔴 To define — Native Icon guidelines not yet documented (Lucide Native TBD).
+
+---
+
+---
 
 ### Imports
 

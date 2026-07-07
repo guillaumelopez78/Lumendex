@@ -5,6 +5,11 @@ status: stable
 ---
 # Card
 
+## How to use
+
+Displaying grouped information in dashboard/summary contexts. Lumen has 6 card types, each for specific data:
+
+**Source Code**:
 **Source Code**:
 - 🌐 **Web (lumen-react)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/card
 - 📱 **Mobile (lumen-native)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/card

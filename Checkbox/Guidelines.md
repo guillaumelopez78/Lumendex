@@ -17,15 +17,6 @@
 
 **Key distinction**: Checkbox = deferred action (submit after selecting). Toggle = immediate action (effect on change).
 
-**Checkbox variants by context**:
-- **Multi-select group**: Multiple checkboxes with a submit button
-  - Example: checkboxes for "Select invoices", then "Export" button
-- **Single option with label**: Single checkbox for a feature/agreement
-  - Example: "Subscribe to monthly statements" (one checkbox, one setting)
-- **"Select all" pattern**: Master checkbox + item checkboxes
-  - Use only when list is finite and manageable (≤20 items)
-  - Example: in table, "Select all visible rows" master checkbox
-
 **Behavior**:
 - Checked = true, Unchecked = false, Indeterminate = some items in group selected
 - Clicking checkbox toggles state immediately (visual feedback)
@@ -37,10 +28,29 @@
 - Mobile: increase touch target to 44px (use `comfortArea` prop)
 - Mobile: larger spacing between items in list
 
-**Pairing**:
-- Checkbox + Submit button = deferred multi-select
-- Single checkbox = feature flag or agreement
-- NOT: Checkbox + immediate onChange fire without submit
+---
+
+## Do / Don't
+
+### React (Web)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Multi-select group saved on submit | Single immediate-effect setting → use Toggle |
+| Let users select items individually — no "Select all" checkbox in generic lists | Add a master "Select all" checkbox to multi-select lists — use the Table component when bulk selection is needed |
+| Use just the confirmation button in destructive modals — the modal text + button label is enough confirmation | Add a "I confirm deletion" checkbox before the delete button — the confirmation button already serves that purpose |
+
+### Native (Mobile)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Use comfortArea on mobile for larger touch targets | Remove comfortArea on mobile — touch targets need to be larger |
+
+---
+
+---
 
 ### Imports
 

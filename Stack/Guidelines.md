@@ -1,4 +1,4 @@
-# Stack (X-Stack / Y-Stack) - Guidelines
+# Stack - Guidelines
 
 ## Guidelines
 
@@ -54,50 +54,24 @@ Both automatically use design token spacing (8px, 16px, 24px, etc.) — no magic
 </YStack>
 ```
 
-**Spacing tokens**:
-- `gap={8}` → tight spacing (icon + label, badge + text)
-- `gap={12}` → default form field spacing
-- `gap={16}` → medium spacing (sections, card content)
-- `gap={24}` → large spacing (major sections, blocks)
-- `gap={32}` → extra large (page sections)
-
-**Alignment options**:
-- `align="center"` → center items vertically (in row) or horizontally (in column)
-- `align="start"` → align to top (row) or left (column)
-- `align="end"` → align to bottom (row) or right (column)
-- `align="stretch"` → fill available space
-
-**Justification options**:
-- `justify="start"` → items at beginning
-- `justify="end"` → items at end
-- `justify="center"` → items centered
-- `justify="space-between"` → items at start/end (label | value pattern)
-- `justify="space-around"` → even spacing around items
-
-**Don't use Stack when**:
-- ❌ Inline styles (flexbox without tokens) → use Stack instead
-- ❌ `display: flex` divs → use Stack for consistency
-- ❌ One-off layouts → Stack enforces consistency
-- ❌ CSS Grid (complex grid layouts) → Stack is for simple flex, not grid
-
-**Responsive behavior**:
-- Stack components don't automatically change direction on mobile
-- For responsive stacks, use conditional logic:
-  ```tsx
-  const isMobile = useMediaQuery('(max-width: 768px)');
-  return isMobile ? <YStack gap={16} /> : <XStack gap={24} />;
-  ```
-
 **Web vs Mobile**:
 - Web: XStack for horizontal layouts that fit
 - Mobile: often convert XStack to YStack for full-width single column
 - Always test that spacing tokens work at mobile viewport
 
-**Nesting**:
-- Nest stacks for complex layouts
-- Keep nesting shallow (2-3 levels max)
-- Use padding + gap together for card/container spacing
-- Example: YStack (page) containing XStack (header) + YStack (content) + XStack (footer)
+---
+
+## Do / Don't
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| `<XStack gap={8} align="center">` for icon + label rows | `<div style={{display:'flex',gap:'8px'}}>` — inline styles bypass token system |
+| `<YStack gap={16}>` for form field stacking | Nest `<div>` with `flexDirection: column` manually |
+| Compose stacks — `<YStack>` containing `<XStack>` items | Use one-off flex wrappers for every layout |
+
+---
+
+---
 
 ### Imports
 

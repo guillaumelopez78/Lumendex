@@ -1,8 +1,28 @@
 # Pin - Guidelines
 
-## Guidelines
+---
 
-Segmented input for numeric codes — PINs, OTPs, verification codes. Focus auto-advances between segments.
+## Do / Don't
+
+### React (Web)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| 6 segments — focus auto-advances, paste fills all | Single input — no guidance on position or progress |
+| Use Pin for OTP (SMS/email, 6 digits) and app login PIN (4 digits) — these are the two confirmed use cases in Shine | Use Pin for other numeric inputs (amounts, account numbers) — it's specifically for codes with fixed lengths |
+| Set `mask={false}` for OTP codes — users should see the code they received | Mask all codes — only use `mask={true}` for sensitive PINs (app login, security codes) |
+
+### Native (Mobile)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| OTP (6 digits, unmasked) and app login PIN (4 digits, masked) — same as React | Use Pin for other numeric inputs |
+
+---
+
+---
 
 ### Imports
 

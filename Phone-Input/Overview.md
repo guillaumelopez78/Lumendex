@@ -5,6 +5,11 @@ status: stable
 ---
 # Phone-Input
 
+## How to use
+
+Use this component for its intended purpose in the design system.
+
+**Source Code**:
 **Source Code**:
 - 🌐 **Web (lumen-react)**: Not in repository
 - 📱 **Mobile (lumen-native)**: Not in repository

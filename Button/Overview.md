@@ -5,6 +5,10 @@ status: stable
 ---
 # Button
 
+## How to use
+
+Triggering actions or navigation. The fundamental interactive element in Lumen. Always pill-shaped with specific variants by context.
+
 **Source Code**:
 - 🌐 **Web (lumen-react)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/button
 - 📱 **Mobile (lumen-native)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/button

@@ -5,6 +5,11 @@ status: stable
 ---
 # Drawer
 
+## How to use
+
+Use this component for its intended purpose in the design system.
+
+**Source Code**:
 **Source Code**:
 - 🌐 **Web (lumen-react)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-react/src/lib/drawer
 - 📱 **Mobile (lumen-native)**: https://github.com/shinetools/shine-ui/tree/main/libs/lumen-native/src/lib/drawer

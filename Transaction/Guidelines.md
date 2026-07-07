@@ -1,8 +1,26 @@
 # Transaction - Guidelines
 
-## Guidelines
+---
 
-A single transaction row — merchant, amount, date, and category. Used in transaction lists, account summaries, and card statements.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 

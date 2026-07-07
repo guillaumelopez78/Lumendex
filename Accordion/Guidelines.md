@@ -51,6 +51,28 @@
 - High-frequency settings → don't accordion if >50% of users need it
 - First-time users → first section open, rest closed (defaultOpen)
 
+---
+
+## Do / Don't
+
+### React (Web)
+
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| 2 items — first open, second ready to expand | Accordion inside accordion — depth 2 is confusing |
+| Allow multiple panels to be open simultaneously — users can expand as many sections as they need | Force exclusive mode (one open at a time) — Shine lets users open multiple panels freely |
+| Use Accordion for FAQ/help content, settings sections, and transaction details — all three are valid contexts in the product | Limit Accordion to a single use case — it's a versatile pattern in Shine |
+
+### Native (Mobile)
+
+
+> 🔴 To define — Native Accordion guidelines not yet documented.
+
+---
+
+---
+
 ### Imports
 
 **Web**:

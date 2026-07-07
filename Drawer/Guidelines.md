@@ -1,8 +1,26 @@
 # Drawer - Guidelines
 
-## Guidelines
+---
 
-A panel that slides in from the edge of the screen. Less disruptive than [[Dialog]] — use for secondary tasks, detail views, and filtering that don't require full focus interruption.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 

@@ -1,8 +1,26 @@
 # Multi-Select - Guidelines
 
-## Guidelines
+---
 
-Dropdown input for selecting multiple options from a list. Selected items appear as tags inside the trigger.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 

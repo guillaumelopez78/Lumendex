@@ -1,8 +1,26 @@
 # Avatar - Guidelines
 
-## Guidelines
+---
 
-Represents a user, organisation, or entity. Used in tables, comments, nav headers, and activity feeds.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 

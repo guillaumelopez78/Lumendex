@@ -1,8 +1,18 @@
 # System-Banner - Guidelines
 
-## Guidelines
+---
 
-Full-width top-of-page system-level alert. Distinct from [[Banner]] (which is page-context) — System Banner is reserved for product-wide announcements, outage notices, and global alerts. Supports `subtle` (tinted) and `primary` (bold, high-contrast) color modes.
+## Do / Don't
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| One System Banner at a time — product-wide, highest urgency only | Stack multiple System Banners — creates noise |
+| Use `type="danger" color="primary"` for outages — maximum visibility | Use `primary` color mode for routine announcements |
+| Include an action if users need to do something | Leave an action-less `danger` banner — always offer a path forward |
+
+---
+
+---
 
 ### Imports
 

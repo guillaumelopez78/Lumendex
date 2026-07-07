@@ -1,8 +1,26 @@
 # Timeline - Guidelines
 
-## Guidelines
+---
 
-Chronological sequence of events. Used in transaction history, audit logs, onboarding flows, and activity feeds.
+## Do / Don't
+
+### React (Web)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+### Native (Mobile)
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| [Good practice] | [Bad practice] |
+| [Good practice] | [Bad practice] |
+
+---
+
+---
 
 ### Imports
 
