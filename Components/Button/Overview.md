@@ -1,6 +1,3 @@
-```embed
-https://storybook.supernova.io/design-systems/758199/alias/shine-ui-main/index.html?path=/story/forms-button--default
-```
 
 | Platform | Status | Version |
 |----------|--------|---------|
